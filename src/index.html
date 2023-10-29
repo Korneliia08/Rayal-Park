@@ -9,6 +9,13 @@
     <link href="styles/main.css" rel="stylesheet">
     <link href="styles/header.css" rel="stylesheet">
     <link href="styles/nav.css" rel="stylesheet">
+    <link href="styles/footer.css" rel="stylesheet">
+    <link href="styles/client.css" rel="stylesheet">
+    <link href="styles/aboutHotel.css" rel="stylesheet">
+    <!--    responsive-->
+    <link href="styles/responsive/header.css" rel="stylesheet">
+    <link href="styles/responsive/nav.css" rel="stylesheet">
+    <link href="styles/responsive/footer.css" rel="stylesheet">
 </head>
 <body>
 <div class="wrapper">
@@ -47,6 +54,130 @@
         </div>
         <button class="btnFindRoom">Find room</button>
     </aside>
+    <div class="container">
+
+        <div class="blockAboutHotel">
+            <div class="block">
+                <h3 class="titleAboutHotel">About hotel gallery</h3>
+                <p class="contentAboutHotel">While some of these examples are real – actually offering guests a stay in
+                    the locations advertised –
+                    it’s mainly just a way.</p>
+                <button class="btnViewMore">View more</button>
+            </div>
+            <div class="block">
+                <img class="imgOfHotelRoom" src="assets/images/luxRoom.svg">
+                <div class="grayBlock">
+                    <h4 class="titleRoom">Lux room <span class="price">&nbsp;$60 night</span></h4>
+                    <button class="btnBookNow">Book now</button>
+                </div>
+            </div>
+            <div class="block">
+                <img class="imgOfHotelRoom" src="assets/images/miniRoom.svg">
+                <div class="grayBlock">
+                    <h4 class="titleRoom">Mini room <span class="price">&nbsp;70 night</span></h4>
+                    <button class="btnBookNow">Book now</button>
+                </div>
+            </div>
+            <div class="block">
+                <img class="imgOfHotelRoom" src="assets/images/standeRoom.svg">
+                <div class="grayBlock">
+                    <h4 class="titleRoom">Stande room <span class="price">&nbsp;$65 night</span></h4>
+                    <button class="btnBookNow">Book now</button>
+                </div>
+            </div>
+            <div class="block">
+                <img class="imgOfHotelRoom" src="assets/images/singleRoom.svg">
+                <div class="grayBlock">
+                    <h4 class="titleRoom">Single room <span class="price">&nbsp;$55 night</span></h4>
+                    <button class="btnBookNow">Book now</button>
+                </div>
+            </div>
+            <div class="block">
+                <img class="imgOfHotelRoom" src="assets/images/eliteRoom.svg">
+                <div class="grayBlock">
+                    <h4 class="titleRoom">Elite room <span class="price">&nbsp;$65 night</span></h4>
+                    <button class="btnBookNow">Book now</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="blockForClient">
+            <div class="titleBlock">
+                <h2 class="title">What our client say</h2>
+                <button class="btnView">View All</button>
+            </div>
+            <div class="blockClients">
+                <div class="client">
+                    <img alt="imgOfClient" class="imgOfClient" src="assets/images/client1.svg">
+                    <p class="contentClient">
+                        <img class='sufix' src="assets/images/suffix.svg">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.</p>
+                    <h3 class="nameClient">David lee</h3>
+                    <h4 class="gmailClient">davidlee@</h4>
+                </div>
+                <div class="client">
+                    <img alt="imgOfClient" class="imgOfClient" src="assets/images/client2.svg">
+                    <p class="contentClient">
+                        <img class='sufix' src="assets/images/suffixBlue.svg">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.</p>
+                    <h3 class="nameClient">Ravi shankor</h3>
+                    <h4 class="gmailClient">ravishankor@</h4>
+                </div>
+                <div class="client">
+                    <img alt="imgOfClient" class="imgOfClient" src="assets/images/client3.svg">
+                    <p class="contentClient">
+                        <img class='sufix' src="assets/images/suffix.svg">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit Ultrices.</p>
+                    <h3 class="nameClient">Thomas lew</h3>
+                    <h4 class="gmailClient">thomaslew@</h4>
+                </div>
+            </div>
+            <div class="blockStay">
+                <h2 class="titleStay">STAY IN TOUCH</h2>
+                <h1 class="titleJoin">Join our email. First to know about specials,events and more!</h1>
+                <div class="blockInput">
+                    <input class="inputEmail" placeholder="Enter your email address" type="text">
+                    <button class="btnSubscribeClient">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="logo">
+                <img alt="logo" class="logoFooter" src="./assets/images/logo.svg">
+                <p class="contentFooter">Travel deals on hotels,<br>
+                    flights, vacation packages.</p>
+                <span class="spanContact">korneliiaPositive@gmail.com</span>
+                <div class="divForSocials">
+                    <img alt="fbIcon" class="icon" src="assets/images/fb.svg">
+                    <img alt="instaIcon" class="icon" src="assets/images/insta.svg">
+                    <img alt="twitterIcon" class="icon" src="assets/images/twitter.svg">
+                    <img alt="googleIcon" class="icon" src="assets/images/google.svg">
+                </div>
+            </div>
+            <div class="home">
+                <ul class="titleOfList">Home
+                    <li class="liFooter">Accessibility</li>
+                    <li class="liFooter">Lertifiotion</li>
+                    <li class="liFooter">Knowledge</li>
+                </ul>
+            </div>
+            <div class="pages">
+                <ul class="titleOfList">Pages
+                    <li class="liFooter">Blogs</li>
+                    <li class="liFooter">Careers</li>
+                    <li class="liFooter">Communing</li>
+                </ul>
+            </div>
+            <div class="subscribe">
+                <h5 class="titleSubscribe">SUBSCRIBE</h5>
+                <input class="inputSubscribe" placeholder="Enter your email address" type="text">
+                <button class="btnSubsribe">Subscribe</button>
+            </div>
+        </footer>
+    </div>
 </div>
 <script src="./scripts/nav.js"></script>
 </body>

@@ -1,0 +1,185 @@
+body .wrapper .blockForClient {
+  background-color: #FFF;
+
+  .titleBlock {
+    display: flex;
+    justify-content: space-between;
+
+    .title {
+      color: #081F32;
+      //font-family: Gelasio;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%;
+    }
+
+    .btnView {
+      border-radius: 5px;
+      background: #1B75BB;
+      color: #FFF;
+      //font-family: Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 160%;
+      border: none;
+      transition: 500ms;
+      padding: 10px 30px;
+
+      &:hover {
+        cursor: pointer;
+        background-color: #0f5c98;
+        transform: scale(0.98);
+      }
+    }
+  }
+
+  .blockClients {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+
+    .client {
+      width: 360px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .imgOfClient {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 25px;
+      }
+
+      .contentClient {
+        width: 281px;
+        color: #081F32;
+        text-align: center;
+        //font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        margin-bottom: 30px;
+        opacity: 0.6;
+        position: relative;
+
+        .sufix {
+          position: absolute;
+          left: 0;
+          top: -20px;
+        }
+      }
+
+      .nameClient {
+        color: #081F32;
+        text-align: center;
+        //font-family: Gelasio;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        margin-bottom: 5px;
+        opacity: 0.7;
+      }
+
+      .gmailClient {
+        color: #081F32;
+        text-align: center;
+        //font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        opacity: 0.7;
+      }
+
+      &:nth-child(even) {
+        .contentClient {
+          color: #081F32;
+          text-align: center;
+          //font-family: Roboto;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 160%;
+          opacity: 1;
+        }
+
+        .nameClient {
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+
+  .blockStay {
+    margin: 140px 0 120px 0;
+
+    .titleStay {
+      color: #081F32;
+      //font-family: Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .titleJoin {
+      color: #081F32;
+      text-align: center;
+      //font-family: Gelasio;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%;
+      margin: 20px 0 40px 0;
+    }
+
+    .blockInput {
+      display: flex;
+      justify-content: center;
+      column-gap: 2px;
+
+      .inputEmail {
+        color: #081F32;
+        text-align: center;
+        //font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        width: 400px;
+        padding: 15px 25px;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.10);
+      }
+
+      .btnSubscribeClient {
+        color: #FFF;
+        text-align: center;
+        //font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        letter-spacing: 0.48px;
+        padding: 15px 40px;
+        border-radius: 5px;
+        background: #1B75BB;
+        border: none;
+        transition: 500ms;
+
+        &:hover {
+          cursor: pointer;
+          background-color: #0f5c98;
+          transform: scale(0.98);
+        }
+      }
+    }
+  }
+}
