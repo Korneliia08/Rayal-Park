@@ -1,0 +1,30 @@
+{
+  "name": "rayalpark",
+  "version": "1.0.0",
+  "description": "it is website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "website",
+    "frontend",
+    "responsive",
+    "programming"
+  ],
+  "author": "Korneliia",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.5",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Korneliia08/Rayal-Park.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Korneliia08/Rayal-Park/issues"
+  },
+  "homepage": "https://github.com/Korneliia08/Rayal-Park#readme"
+}

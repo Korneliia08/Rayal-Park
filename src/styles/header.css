@@ -1,0 +1,122 @@
+body .wrapper header {
+  width: 100%;
+  height: 43.2vw;
+  background-image: url("../assets/images/header.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+body .wrapper header .container {
+  width: 36vw;
+  margin: 1vw 10vw;
+}
+body .wrapper header .container .h2InHeader {
+  color: #1B75BB;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 2px;
+}
+body .wrapper header .container .title {
+  margin: 0.8vw 0;
+  color: #081F32;
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+body .wrapper header .container .title .home {
+  color: #1B75BB;
+}
+body .wrapper header .container .pContent {
+  margin: 0.9vw 0;
+  width: 347px;
+  color: #081F32;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+body .wrapper header .container .btnReadMore {
+  margin: 0.9vw 0;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  border-radius: 5px;
+  background-color: #1B75BB;
+  border: none;
+  padding: 15px 30px;
+  transition: 500ms;
+}
+body .wrapper header .container .btnReadMore:hover {
+  cursor: pointer;
+  background-color: #0f5c98;
+  transform: scale(0.98);
+}
+body .wrapper aside {
+  position: relative;
+  padding: 27px;
+  box-sizing: border-box;
+  top: -55px;
+  left: 90px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.86);
+}
+body .wrapper aside .block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+body .wrapper aside .block .titleAside {
+  color: #081F32;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+body .wrapper aside .block time {
+  color: #081F32;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+body .wrapper aside .block:not(:last-of-type):after {
+  content: "";
+  display: block;
+  width: 0.1pc;
+  background-color: #9DACB8;
+  height: 35px;
+  position: absolute;
+  top: 13px;
+  left: 94px;
+  opacity: 0.4;
+}
+body .wrapper aside .btnFindRoom {
+  margin-left: 30px;
+  border-radius: 5px;
+  background: #1B75BB;
+  display: inline-flex;
+  padding: 15px 25px;
+  transition: 500ms;
+  border: none;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+body .wrapper aside .btnFindRoom:hover {
+  cursor: pointer;
+  background-color: #0f5c98;
+  transform: scale(0.98);
+}
+
+/*# sourceMappingURL=header.css.map */

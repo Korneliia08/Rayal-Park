@@ -1,0 +1,57 @@
+body .wrapper header .blockForLogoAndNav {
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vw;
+}
+body .wrapper header .blockForLogoAndNav .imageLogo {
+  width: 186px;
+  height: 144px;
+}
+body .wrapper header .blockForLogoAndNav nav {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+body .wrapper header .blockForLogoAndNav nav a {
+  color: #1B75BB;
+  /*font-family: Gelasio;*/
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  text-decoration: none;
+  transition: 500ms;
+}
+body .wrapper header .blockForLogoAndNav nav a:hover {
+  transform: scale(1.2);
+  color: #054170;
+}
+body .wrapper header .blockForLogoAndNav .btnBookNow {
+  border-radius: 5px;
+  background-color: #1B75BB;
+  padding: 15px 30px;
+  gap: 10px;
+  color: #FFF;
+  /*font-family: Gelasio;*/
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  border: none;
+  transition: 500ms;
+}
+body .wrapper header .blockForLogoAndNav .btnBookNow:hover {
+  background-color: #0f5c98;
+  cursor: pointer;
+  transform: scale(0.98);
+}
+body .wrapper header .blockForLogoAndNav .fixedNav {
+  width: 100%;
+  position: fixed;
+  background-color: #1B75BB;
+}
+
+/*# sourceMappingURL=nav.css.map */
