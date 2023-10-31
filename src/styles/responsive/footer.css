@@ -1,3 +1,107 @@
-
+@media (max-width: 1200px) {
+  body .wrapper footer .logo .contentFooter {
+    font-size: 15px;
+  }
+  body .wrapper footer .logo .spanContact {
+    font-size: 14px;
+    letter-spacing: 0.1px;
+  }
+  body .wrapper footer .logo .divForSocials {
+    column-gap: 10px;
+  }
+  body .wrapper footer .home .titleOfList, body .wrapper footer .pages .titleOfList {
+    font-size: 20px;
+  }
+  body .wrapper footer .home .titleOfList .liFooter, body .wrapper footer .pages .titleOfList .liFooter {
+    font-size: 16px;
+  }
+  body .wrapper footer .subscribe .titleSubscribe {
+    color: #081F32;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  body .wrapper footer .subscribe .inputSubscribe {
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 5px 0px 5px 5px;
+    font-size: 14px;
+  }
+  body .wrapper footer .subscribe .btnSubsribe {
+    padding: 5px 10px;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+  }
+  .maps {
+    height: 150px;
+  }
+}
+@media (max-width: 890px) {
+  body .wrapper footer {
+    justify-content: space-between;
+  }
+  body .wrapper footer .home, body .wrapper footer .pages {
+    padding-right: 5px;
+  }
+  body .wrapper footer .subscribe {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  body .wrapper footer .subscribe .inputSubscribe {
+    padding: 2px 0px 2px 2px;
+    font-size: 12px;
+  }
+  body .wrapper footer .subscribe .btnSubsribe {
+    padding: 2px 5px;
+    font-size: 12px;
+    letter-spacing: 0px;
+  }
+  .maps {
+    height: 150px;
+  }
+}
+@media (max-width: 600px) {
+  body .wrapper footer {
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+  body .wrapper footer .logo {
+    align-items: center;
+  }
+  body .wrapper footer .subscribe {
+    order: 2;
+    padding-bottom: 0;
+  }
+  body .wrapper footer .home {
+    order: 3;
+    padding-bottom: 0;
+  }
+  body .wrapper footer .home .titleOfList {
+    padding-bottom: 0;
+    margin-bottom: 5px;
+  }
+  body .wrapper footer .home .titleOfList li:last-child {
+    margin: 0;
+  }
+  body .wrapper footer .pages {
+    order: 4;
+  }
+  body .wrapper footer .pages .titleOfList {
+    padding-bottom: 0;
+    margin-bottom: 5px;
+  }
+  body .wrapper footer .pages .titleOfList li:last-child {
+    margin: 0;
+  }
+  body .wrapper footer .subscribe .titleSubscribe {
+    text-align: center;
+  }
+  body .wrapper footer .subscribe .inputSubscribe {
+    margin: 0;
+  }
+}
 
 /*# sourceMappingURL=footer.css.map */

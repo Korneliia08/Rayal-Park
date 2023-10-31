@@ -1,0 +1,159 @@
+@media (max-width: 1200px) {
+  body {
+    .wrapper {
+      footer {
+
+
+        .logo {
+          .contentFooter {
+            font-size: 15px;
+          }
+
+          .spanContact {
+            font-size: 14px;
+            letter-spacing: 0.10px;
+          }
+
+          .divForSocials {
+            column-gap: 10px;
+          }
+        }
+
+        .home, .pages {
+          .titleOfList {
+            font-size: 20px;
+
+            .liFooter {
+              font-size: 16px;
+            }
+          }
+        }
+
+        .subscribe {
+          .titleSubscribe {
+            color: #081F32;
+            //font-family: Poppins;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 150%;
+          }
+
+          .inputSubscribe {
+            margin-top: 20px;
+            border-radius: 5px;
+            padding: 5px 0px 5px 5px;
+            font-size: 14px;
+          }
+
+          .btnSubsribe {
+            padding: 5px 10px;
+            font-size: 14px;
+            letter-spacing: 0.10px;
+          }
+        }
+      }
+    }
+  }
+  .maps {
+    height: 150px;
+  }
+}
+
+@media (max-width: 890px) {
+  body {
+    .wrapper {
+      footer {
+        justify-content: space-between;
+
+        .home, .pages {
+          //width: 80px;
+          padding-right: 5px;
+        }
+
+        .subscribe {
+          display: flex;
+          flex-direction: column;
+          row-gap: 10px;
+
+
+          .inputSubscribe {
+            padding: 2px 0px 2px 2px;
+            font-size: 12px;
+          }
+
+          .btnSubsribe {
+            padding: 2px 5px;
+            font-size: 12px;
+            letter-spacing: 0px;
+          }
+        }
+      }
+    }
+  }
+  .maps {
+    height: 150px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  body {
+    .wrapper {
+      footer {
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 10px;
+
+        .logo {
+          align-items: center;
+        }
+
+
+        .subscribe {
+          order: 2;
+          padding-bottom: 0;
+        }
+
+        .home {
+          order: 3;
+          padding-bottom: 0;
+
+          .titleOfList {
+            padding-bottom: 0;
+            margin-bottom: 5px;
+          }
+
+          .titleOfList li:last-child {
+            margin: 0;
+          }
+        }
+
+        .pages {
+          order: 4;
+
+          .titleOfList {
+            padding-bottom: 0;
+            margin-bottom: 5px;
+          }
+
+          .titleOfList li:last-child {
+            margin: 0;
+          }
+        }
+
+        .subscribe {
+          .titleSubscribe {
+            text-align: center;
+          }
+
+          .inputSubscribe {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+

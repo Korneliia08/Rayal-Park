@@ -1,8 +1,8 @@
 body {
   .wrapper {
 
-    .blockAboutHotel:first-child {
-      .block {
+    .blockAboutHotel {
+      .block:first-child {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -65,6 +65,11 @@ body {
       .block {
         width: 49%;
         position: relative;
+        transition: 1s;
+
+        &:hover {
+          scale: 1.015;
+        }
 
         .grayBlock {
           width: 231px;

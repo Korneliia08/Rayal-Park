@@ -1,0 +1,18 @@
+@media (max-width: 800px) {
+  body .wrapper .blockForChooseUs {
+    margin-bottom: 40px;
+
+    .titleChoseUs {
+      font-size: 25px;
+    }
+
+    .contentChoseUs {
+      width: 250px;
+    }
+
+    .containerForBlocks {
+      flex-wrap: wrap;
+      row-gap: 10px;
+    }
+  }
+}

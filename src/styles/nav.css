@@ -1,3 +1,8 @@
+body .wrapper header .emptyDiv {
+  height: 8vw;
+  width: 100%;
+  display: none;
+}
 body .wrapper header .blockForLogoAndNav {
   padding: 5px;
   box-sizing: border-box;
@@ -48,10 +53,13 @@ body .wrapper header .blockForLogoAndNav .btnBookNow:hover {
   cursor: pointer;
   transform: scale(0.98);
 }
-body .wrapper header .blockForLogoAndNav .fixedNav {
+
+.fixedNav {
   width: 100%;
   position: fixed;
-  background-color: #1B75BB;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.91);
+  z-index: 10;
 }
 
 /*# sourceMappingURL=nav.css.map */

@@ -110,4 +110,12 @@ body .wrapper footer .subscribe .btnSubsribe:hover {
   background-color: #0f5c98;
 }
 
+.maps {
+  height: 200px;
+  width: 100%;
+  margin: 50px 0;
+  box-sizing: border-box;
+  border: 1px solid #2f78d9 !important;
+}
+
 /*# sourceMappingURL=footer.css.map */

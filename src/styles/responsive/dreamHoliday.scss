@@ -1,0 +1,71 @@
+@media (max-width: 1400px) {
+  body {
+    .wrapper {
+      .dreamHoliday {
+        flex-direction: column-reverse;
+        position: relative;
+        margin-bottom: 140px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .blockForVideo {
+
+
+          .dreamImgMain {
+            width: 484px;
+            height: 268px;
+          }
+
+          .dreamImgSecond {
+            position: absolute;
+            width: 550px;
+            height: 325px;
+            left: -110px;
+            top: 50px;
+            transition: scale 1.5s, translate 2s;
+
+          }
+        }
+
+        .blockForTitle {
+          .title {
+          }
+
+          .content {
+          }
+
+          .btnViewMore {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    .wrapper {
+      .dreamHoliday {
+        .blockForVideo {
+          .dreamImgMain {
+            max-width: 484px;
+            max-height: 268px;
+            width: 30vw;
+            height: 30vw;
+          }
+
+          .dreamImgSecond {
+            position: absolute;
+            max-width: 550px;
+            max-height: 325px;
+            width: 37vw;
+            height: 20vw;
+            top: 65px;
+            left: -67px;
+          }
+        }
+      }
+    }
+  }
+}

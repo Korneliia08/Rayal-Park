@@ -1,0 +1,90 @@
+@media (max-width: 1200px) {
+  body .wrapper .blockAboutHotel .block:first-child .contentAboutHotel {
+    max-width: 290px;
+  }
+  body {
+    .wrapper {
+
+      .blockAboutHotel {
+        margin-bottom: 50px;
+        .block {
+          width: 48%;
+
+          img {
+            width: 100%;
+          }
+
+          .grayBlock {
+            width: 201px;
+            height: 106px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  body .wrapper .blockAboutHotel .block:first-child .contentAboutHotel {
+    margin-bottom: 0px;
+    font-size: 14px;
+  }
+  body {
+    .wrapper {
+
+      .blockAboutHotel {
+
+        .block {
+          width: 47%;
+          min-width: 290px;
+
+
+          .grayBlock {
+            width: 40%;
+            height: 32%;
+            min-height: 72px;
+            min-width: 135px;
+
+            .titleRoom {
+
+              font-size: 14px;
+            }
+
+            .price {
+
+              font-size: 11px;
+
+            }
+
+            .btnBookNow {
+              font-size: 11px;
+              padding: 4px 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 800px) {
+  body .wrapper .blockAboutHotel .block:first-child {
+    .btnViewMore {
+      margin-top: 5px;
+      padding: 5px 10px;
+    }
+
+    .titleAboutHotel {
+      margin-bottom: 0;
+    }
+  }
+  body {
+    .wrapper {
+
+      .blockAboutHotel {
+        justify-content: center;
+      }
+    }
+  }
+}
