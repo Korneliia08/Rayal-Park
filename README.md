@@ -3,7 +3,7 @@
 ![image:countLanguages](https://img.shields.io/github/languages/count/Korneliia08/Rayal-Park)
 
 This website:
-* made in HTML, CSS,JS,
+* made in HTML, SCSS,JS,
 * it is a responsive website,
 * made some animations using transform
 * made using samantic tegs
