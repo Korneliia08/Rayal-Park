@@ -1,3 +1,49 @@
-
+@media (max-width: 990px) {
+  body .wrapper header .blockForLogoAndNav .imageLogo {
+    width: 136px;
+    height: 94px;
+  }
+  body .wrapper header .blockForLogoAndNav nav {
+    column-gap: 10px;
+  }
+  body .wrapper header .blockForLogoAndNav nav a {
+    font-size: 14px;
+  }
+  body .wrapper header .blockForLogoAndNav nav a:hover {
+    transform: scale(1);
+  }
+  body .wrapper header .blockForLogoAndNav .btnBookNow {
+    padding: 5px 15px;
+    gap: 5px;
+    font-size: 14px;
+  }
+  body .wrapper header .blockForLogoAndNav .btnBookNow:hover {
+    transform: scale(0.98);
+  }
+}
+@media (max-width: 850px) {
+  body .wrapper header .blockForLogoAndNav .imageLogo {
+    width: 100px;
+    height: 58px;
+  }
+  body .wrapper header .blockForLogoAndNav nav {
+    column-gap: 7px;
+  }
+  body .wrapper header .blockForLogoAndNav nav a {
+    font-size: 15px;
+  }
+  body .wrapper header .blockForLogoAndNav .btnBookNow {
+    padding: 5px 5px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 500px) {
+  body .wrapper header .blockForLogoAndNav {
+    display: none;
+  }
+  body .wrapper header .blockForLogoAndBurger {
+    display: flex;
+  }
+}
 
 /*# sourceMappingURL=nav.css.map */

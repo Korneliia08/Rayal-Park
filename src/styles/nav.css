@@ -3,6 +3,24 @@ body .wrapper header .emptyDiv {
   width: 100%;
   display: none;
 }
+body .wrapper header .navBurger {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 5px;
+  width: 100%;
+  min-height: 120px;
+  background-color: #054170;
+  z-index: 15;
+  position: relative;
+}
+body .wrapper header .navBurger nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 body .wrapper header .blockForLogoAndNav {
   padding: 5px;
   box-sizing: border-box;
@@ -49,6 +67,45 @@ body .wrapper header .blockForLogoAndNav .btnBookNow {
   transition: 500ms;
 }
 body .wrapper header .blockForLogoAndNav .btnBookNow:hover {
+  background-color: #0f5c98;
+  cursor: pointer;
+  transform: scale(0.98);
+}
+
+.blockForLogoAndBurger {
+  width: 100%;
+  height: 12vw;
+  min-height: 35px;
+  padding: 4px;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.blockForLogoAndBurger .imgLogo {
+  width: 75px;
+  height: 90px;
+}
+.blockForLogoAndBurger .imgBurger {
+  width: 27px;
+}
+.blockForLogoAndBurger .imgBurger:hover {
+  cursor: pointer;
+}
+.blockForLogoAndBurger .btnBookNow {
+  border-radius: 5px;
+  background-color: #1B75BB;
+  padding: 5px 5px;
+  color: #FFF;
+  /*font-family: Gelasio;*/
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  border: none;
+  transition: 500ms;
+}
+.blockForLogoAndBurger .btnBookNow:hover {
   background-color: #0f5c98;
   cursor: pointer;
   transform: scale(0.98);

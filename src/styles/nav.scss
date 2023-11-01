@@ -7,6 +7,30 @@ body {
         display: none;
       }
 
+      .navBurger {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 5px;
+        width: 100%;
+        min-height: 120px;
+        background-color: #054170;
+        z-index: 15;
+        position: relative;
+
+        nav {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+
+          a {
+
+          }
+        }
+      }
+
       .blockForLogoAndNav {
         padding: 5px;
         box-sizing: border-box;
@@ -64,6 +88,50 @@ body {
           }
         }
       }
+    }
+  }
+}
+
+.blockForLogoAndBurger {
+  width: 100%;
+  height: 12vw;
+  min-height: 35px;
+  padding: 4px;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+
+  .imgLogo {
+    width: 75px;
+    height: 90px;
+  }
+
+  .imgBurger {
+    width: 27px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .btnBookNow {
+    border-radius: 5px;
+    background-color: #1B75BB;
+    padding: 5px 5px;
+    color: #FFF;
+    /*font-family: Gelasio;*/
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    border: none;
+    transition: 500ms;
+
+    &:hover {
+      background-color: #0f5c98;
+      cursor: pointer;
+      transform: scale(0.98);
     }
   }
 }
