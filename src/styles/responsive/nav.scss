@@ -66,16 +66,26 @@
   }
 }
 
+
 @media (max-width: 500px) {
   body {
     .wrapper {
       header {
+        .navBurger {
+          display: block;
+        }
+
         .blockForLogoAndNav {
           display: none;
         }
 
         .blockForLogoAndBurger {
           display: flex;
+        }
+
+        .emptyDiv {
+          height: 12vw;
+          min-height: 35px;
         }
       }
     }

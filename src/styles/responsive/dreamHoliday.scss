@@ -44,28 +44,62 @@
 }
 
 @media (max-width: 800px) {
+
   body {
     .wrapper {
       .dreamHoliday {
+        margin-bottom: 30px;
+
         .blockForVideo {
           .dreamImgMain {
             max-width: 484px;
             max-height: 268px;
-            width: 30vw;
-            height: 30vw;
+            width: 50vw;
+            height: 50vw;
           }
 
           .dreamImgSecond {
             position: absolute;
             max-width: 550px;
             max-height: 325px;
-            width: 37vw;
-            height: 20vw;
+            width: 50vw;
+            height: 26vw;
             top: 65px;
             left: -67px;
           }
         }
+
+        .blockForTitle .content {
+          font-size: 25px;
+        }
       }
+
     }
   }
 }
+
+@media (max-width: 800px) {
+  body {
+    .wrapper {
+      .dreamHoliday {
+        .blockForVideo {
+          .dreamImgMain {
+
+          }
+
+          .dreamImgSecond {
+            left: -11px;
+            top: 61px;
+          }
+        }
+
+        .blockForTitle .content {
+          font-size: 17px;
+          width: 98%;
+        }
+      }
+
+    }
+  }
+}
+

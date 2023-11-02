@@ -14,6 +14,7 @@
     <link href="styles/aboutHotel.css" rel="stylesheet">
     <link href="styles/chooseUs.css" rel="stylesheet">
     <link href="styles/dreamHoliday.css" rel="stylesheet">
+    <link href="../node_modules/aos/dist/aos.css" rel="stylesheet">
     <!--responsive-->
     <link href="styles/responsive/chooseUs.css" rel="stylesheet">
     <link href="styles/responsive/header.css" rel="stylesheet">
@@ -44,13 +45,14 @@
         </div>
         <div class="container">
             <h2 class="h2InHeader">Serenity</h2>
-            <h1 class="title">Stay with us feel<br> like <span class="home">home</span>.</h1>
+            <h1 class="title" data-aos="fade-right">Stay with us feel<br> like <span class="home">home</span>.</h1>
             <p class="pContent">Pet-friendly hotels are becoming increasingly popular; appealing to travellers who can’t
                 bear to be
                 parted.</p>
             <button class="btnReadMore">Read more</button>
         </div>
         <div class="navBurger">
+            <button class="closeButton">X</button>
             <nav>
                 <a href="#home">Home</a>
                 <a href="#features">Features</a>
@@ -78,7 +80,7 @@
 
     <div class="container">
         <div class="dreamHoliday">
-            <div class="blockForVideo">
+            <div class="blockForVideo" data-aos="fade-right">
                 <img alt="imgDream" class="dreamImgMain" src="assets/images/dream1.svg">
                 <!--                <img alt="imgDream" class="dreamImgSecond" src="assets/images/dream2.svg">-->
                 <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -88,20 +90,21 @@
                         title="YouTube video player"
                         width="560"></iframe>
             </div>
-            <div class="blockForTitle">
+            <div class="blockForTitle" data-aos="fade-right">
                 <h2 class="title">DREAM HOLIDAYS</h2>
                 <p class="content">Enjoy unforgettable experiences in dream hotels.</p>
                 <button class="btnViewMore">View more</button>
             </div>
         </div>
         <div class="blockForChooseUs" id="features">
-            <h2 class="titleChoseUs">Why you choose us!</h2>
-            <p class="contentChoseUs">Naturally, it’s becoming even more important for hotel and hospitality brands to
+            <h2 class="titleChoseUs" data-aos="fade-left">Why you choose us!</h2>
+            <p class="contentChoseUs" data-aos="fade-left">Naturally, it’s becoming even more important for hotel and
+                hospitality brands to
                 stand
                 out from the crowd.
                 Content marketing remains a key way for hotels to do this.</p>
 
-            <div class="containerForBlocks">
+            <div class="containerForBlocks" data-aos="fade-right">
                 <div class="block">
                     <img alt="imgEasyBooking" class="imgChooseUs" src="assets/images/easy.svg">
                     <h3 class="title">Easy booking </h3>
@@ -133,35 +136,36 @@
                 <button class="btnViewMore">View more</button>
             </div>
             <div class="block">
-                <img class="imgOfHotelRoom" src="assets/images/luxRoom.svg">
+                <img class="imgOfHotelRoom" data-aos="flip-left" src="assets/images/luxRoom.svg">
                 <div class="grayBlock">
                     <h4 class="titleRoom">Lux room <span class="price">&nbsp;$60 night</span></h4>
                     <button class="btnBookNow">Book now</button>
                 </div>
             </div>
             <div class="block">
-                <img class="imgOfHotelRoom" src="assets/images/miniRoom.svg">
+                <img class="imgOfHotelRoom" data-aos="flip-left" src="assets/images/miniRoom.svg">
                 <div class="grayBlock">
                     <h4 class="titleRoom">Mini room <span class="price">&nbsp;70 night</span></h4>
                     <button class="btnBookNow">Book now</button>
                 </div>
             </div>
             <div class="block">
-                <img class="imgOfHotelRoom" src="assets/images/standeRoom.svg">
+                <img class="imgOfHotelRoom" data-aos="flip-left" src="assets/images/standeRoom.svg">
                 <div class="grayBlock">
                     <h4 class="titleRoom">Stande room <span class="price">&nbsp;$65 night</span></h4>
                     <button class="btnBookNow">Book now</button>
                 </div>
             </div>
             <div class="block">
-                <img class="imgOfHotelRoom" src="assets/images/singleRoom.svg">
+                <img class="imgOfHotelRoom" data-aos="flip-left"
+                     src="assets/images/singleRoom.svg">
                 <div class="grayBlock">
                     <h4 class="titleRoom">Single room <span class="price">&nbsp;$55 night</span></h4>
                     <button class="btnBookNow">Book now</button>
                 </div>
             </div>
             <div class="block">
-                <img class="imgOfHotelRoom" src="assets/images/eliteRoom.svg">
+                <img class="imgOfHotelRoom" data-aos="flip-left" src="assets/images/eliteRoom.svg">
                 <div class="grayBlock">
                     <h4 class="titleRoom">Elite room <span class="price">&nbsp;$65 night</span></h4>
                     <button class="btnBookNow">Book now</button>
@@ -175,7 +179,7 @@
                 <h2 class="title">What our client say</h2>
                 <button class="btnView">View All</button>
             </div>
-            <div class="blockClients">
+            <div class="blockClients" data-aos="fade-right">
                 <div class="client">
                     <img alt="imgOfClient" class="imgOfClient" src="assets/images/client1.svg">
                     <p class="contentClient">
@@ -201,7 +205,7 @@
                     <h4 class="gmailClient">thomaslew@</h4>
                 </div>
             </div>
-            <div class="blockStay">
+            <div class="blockStay" data-aos="fade-left">
                 <h2 class="titleStay">STAY IN TOUCH</h2>
                 <h1 class="titleJoin">Join our email. First to know about specials,events and more!</h1>
                 <div class="blockInput">
@@ -210,7 +214,8 @@
                 </div>
             </div>
         </div>
-        <iframe allowfullscreen="" class="maps" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        <iframe allowfullscreen="" class="maps" data-aos="fade-right" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82352.49626458579!2d23.92983480115627!3d49.83277057366949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7c09109a57%3A0x4223c517012378e2!2zTHfDs3csIE9id8OzZCBsd293c2tpLCBVa3JhaW5hLCA3OTAwMA!5e0!3m2!1spl!2spl!4v1698762648444!5m2!1spl!2spl"
                 style="border:0;"></iframe>
 
@@ -249,6 +254,7 @@
         </footer>
     </div>
 </div>
+<script src="../node_modules/aos/dist/aos.js"></script>
 <script src="./scripts/nav.js"></script>
 </body>
 </html>

@@ -4,22 +4,53 @@ body .wrapper header .emptyDiv {
   display: none;
 }
 body .wrapper header .navBurger {
-  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   row-gap: 5px;
   width: 100%;
   min-height: 120px;
-  background-color: #054170;
+  background-color: rgba(10, 61, 101, 0.91);
   z-index: 15;
-  position: relative;
+  position: fixed;
+  top: -200px;
+  transition: top 1s;
+  display: none;
+}
+body .wrapper header .navBurger .closeButton {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: transparent;
+  border: none;
+  transition: scale 300ms;
+  font-weight: bold;
+  font-size: 24px;
+  color: #FCFCFD;
+  z-index: 200;
+}
+body .wrapper header .navBurger .closeButton:hover {
+  scale: 1.09;
+  cursor: pointer;
 }
 body .wrapper header .navBurger nav {
+  z-index: 199;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  min-height: 120px;
   align-items: center;
   flex-direction: column;
+  position: relative;
+}
+body .wrapper header .navBurger nav a {
+  color: whitesmoke;
+  font-weight: bold;
+  transition: scale 300ms;
+  text-decoration: none;
+}
+body .wrapper header .navBurger nav a:hover {
+  scale: 1.1;
+  cursor: pointer;
 }
 body .wrapper header .blockForLogoAndNav {
   padding: 5px;
@@ -81,6 +112,13 @@ body .wrapper header .blockForLogoAndNav .btnBookNow:hover {
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
+  z-index: 11;
+  transition: background-color 400ms;
+}
+.blockForLogoAndBurger.fixedNavBurger {
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  top: 0;
 }
 .blockForLogoAndBurger .imgLogo {
   width: 75px;

@@ -15,10 +15,10 @@
   "author": "Korneliia",
   "license": "ISC",
   "dependencies": {
+    "aos": "^2.3.4",
     "sass": "^1.69.5",
     "scss": "^0.2.4"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Korneliia08/Rayal-Park.git"

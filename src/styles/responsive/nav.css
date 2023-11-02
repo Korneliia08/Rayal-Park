@@ -38,11 +38,18 @@
   }
 }
 @media (max-width: 500px) {
+  body .wrapper header .navBurger {
+    display: block;
+  }
   body .wrapper header .blockForLogoAndNav {
     display: none;
   }
   body .wrapper header .blockForLogoAndBurger {
     display: flex;
+  }
+  body .wrapper header .emptyDiv {
+    height: 12vw;
+    min-height: 35px;
   }
 }
 

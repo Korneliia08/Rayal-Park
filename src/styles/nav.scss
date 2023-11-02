@@ -8,25 +8,58 @@ body {
       }
 
       .navBurger {
-        display: none;
+        //  display: none;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         row-gap: 5px;
         width: 100%;
         min-height: 120px;
-        background-color: #054170;
+        background-color: rgba(10, 61, 101, 0.91);
         z-index: 15;
-        position: relative;
+        position: fixed;
+        top: -200px;
+        transition: top 1s;
+        display: none;
+
+        .closeButton {
+          position: absolute;
+          top: 5px;
+          right: 5px;
+          background: transparent;
+          border: none;
+          transition: scale 300ms;
+          font-weight: bold;
+          font-size: 24px;
+          color: #FCFCFD;
+          z-index: 200;
+
+          &:hover {
+            scale: 1.09;
+            cursor: pointer;
+          }
+        }
 
         nav {
+          z-index: 199;
           display: flex;
-          justify-content: center;
+          justify-content: space-around;
+          min-height: 120px;
           align-items: center;
           flex-direction: column;
+          position: relative;
+
 
           a {
+            color: whitesmoke;
+            font-weight: bold;
+            transition: scale 300ms;
+            text-decoration: none;
 
+            &:hover {
+              scale: 1.1;
+              cursor: pointer;
+            }
           }
         }
       }
@@ -101,6 +134,14 @@ body {
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
+  z-index: 11;
+  transition: background-color 400ms;
+
+  &.fixedNavBurger {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+  }
 
   .imgLogo {
     width: 75px;
