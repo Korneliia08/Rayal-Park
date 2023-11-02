@@ -7,6 +7,7 @@ This website:
 * it is a responsive website,
 * made some animations using transform
 * made using samantic tegs
+* using small library AOS to animate elements on page during scroll.
   
  
  # "HEADER" component
