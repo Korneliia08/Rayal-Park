@@ -20,6 +20,7 @@ body .wrapper footer .logo .logoFooter {
 }
 body .wrapper footer .logo .contentFooter {
   color: #081F32;
+  font-family: Poppins, cursive;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -27,6 +28,7 @@ body .wrapper footer .logo .contentFooter {
 }
 body .wrapper footer .logo .spanContact {
   color: #081F32;
+  font-family: Poppins, cursive;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -48,6 +50,7 @@ body .wrapper footer .logo .divForSocials .icon:hover {
 }
 body .wrapper footer .home .titleOfList, body .wrapper footer .pages .titleOfList {
   color: #081F32;
+  font-family: Poppins, cursive;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -57,6 +60,7 @@ body .wrapper footer .home .titleOfList, body .wrapper footer .pages .titleOfLis
 }
 body .wrapper footer .home .titleOfList .liFooter, body .wrapper footer .pages .titleOfList .liFooter {
   color: #081F32;
+  font-family: Poppins, cursive;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -74,6 +78,7 @@ body .wrapper footer .home .titleOfList .liFooter:hover, body .wrapper footer .p
 }
 body .wrapper footer .subscribe .titleSubscribe {
   color: #081F32;
+  font-family: Poppins, cursive;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -83,9 +88,10 @@ body .wrapper footer .subscribe .inputSubscribe {
   margin-top: 30px;
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 12px 0px 12px 30px;
+  padding: 12px 5px 12px 30px;
   color: #081F32;
-  font-size: 18px;
+  font-family: Poppins, cursive;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
@@ -97,6 +103,7 @@ body .wrapper footer .subscribe .btnSubsribe {
   border: none;
   color: #FFF;
   text-align: center;
+  font-family: Poppins, cursive;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;

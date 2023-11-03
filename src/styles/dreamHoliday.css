@@ -24,6 +24,7 @@ body .wrapper .dreamHoliday .blockForVideo .dreamImgSecond:hover {
 }
 body .wrapper .dreamHoliday .blockForTitle .title {
   color: #1B75BB;
+  font-family: Roboto, cursive;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -34,6 +35,7 @@ body .wrapper .dreamHoliday .blockForTitle .title {
 body .wrapper .dreamHoliday .blockForTitle .content {
   width: 420px;
   color: #081F32;
+  font-family: Gelasio cursive;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
@@ -45,6 +47,7 @@ body .wrapper .dreamHoliday .blockForTitle .btnViewMore {
   border-radius: 5px;
   background-color: #1B75BB;
   color: #FFF;
+  font-family: Roboto, cursive;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;

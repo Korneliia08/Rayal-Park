@@ -71,7 +71,7 @@ body .wrapper header .blockForLogoAndNav nav {
 }
 body .wrapper header .blockForLogoAndNav nav a {
   color: #1B75BB;
-  /*font-family: Gelasio;*/
+  font-family: Gelasio cursive;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -89,7 +89,7 @@ body .wrapper header .blockForLogoAndNav .btnBookNow {
   padding: 15px 30px;
   gap: 10px;
   color: #FFF;
-  /*font-family: Gelasio;*/
+  font-family: Gelasio cursive;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -135,7 +135,7 @@ body .wrapper header .blockForLogoAndNav .btnBookNow:hover {
   background-color: #1B75BB;
   padding: 5px 5px;
   color: #FFF;
-  /*font-family: Gelasio;*/
+  font-family: Gelasio cursive;
   font-size: 10px;
   font-style: normal;
   font-weight: 500;

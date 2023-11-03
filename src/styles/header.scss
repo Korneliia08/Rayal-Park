@@ -3,7 +3,6 @@ body {
     header {
       width: 100%;
       height: 43.2vw;
-      //background-color: #931010;
       background-image: url("../assets/images/header.svg");
       background-repeat: no-repeat;
       background-size: 100%;
@@ -14,7 +13,7 @@ body {
 
         .h2InHeader {
           color: #1B75BB;
-          //font-family: Roboto;
+          font-family: Roboto cursive;
           font-size: 20px;
           font-style: normal;
           font-weight: 500;
@@ -25,7 +24,7 @@ body {
         .title {
           margin: 0.8vw 0;
           color: #081F32;
-          //font-family: Gelasio;
+          font-family: Gelasio cursive;
           font-size: 57px;
           font-style: normal;
           font-weight: 600;
@@ -40,7 +39,7 @@ body {
           margin: 0.9vw 0;
           width: 347px;
           color: #081F32;
-          //font-family: Roboto;
+          font-family: Roboto cursive;
           font-size: 18px;
           font-style: normal;
           font-weight: 400;
@@ -50,7 +49,7 @@ body {
         .btnReadMore {
           margin: 0.9vw 0;
           color: #FFF;
-          //font-family: Roboto;
+          font-family: Roboto cursive;
           font-size: 16px;
           font-style: normal;
           font-weight: 500;
@@ -91,7 +90,7 @@ body {
 
         .titleAside {
           color: #081F32;
-          //font-family: Roboto;
+          font-family: Roboto cursive;
           font-size: 16px;
           font-style: normal;
           font-weight: 500;
@@ -100,7 +99,7 @@ body {
 
         time {
           color: #081F32;
-          //font-family: Roboto;
+          font-family: Roboto cursive;
           font-size: 16px;
           font-style: normal;
           font-weight: 400;
@@ -132,7 +131,7 @@ body {
         transition: 500ms;
         border: none;
         color: #FFF;
-        //font-family: Roboto;
+        font-family: Roboto cursive;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;

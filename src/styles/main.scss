@@ -1,3 +1,18 @@
+@font-face {
+  font-family: Gelasio;
+  src: url("../assets/fonts/Gelasio/Gelasio-Bold.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../assets/fonts/Roboto_Flex/static/RobotoFlex-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("../assets/fonts/Poppins/Poppins-ExtraLight.ttf");
+}
+
 body {
   margin: 0;
 }
@@ -36,8 +51,6 @@ body {
     .wrapper {
       .container {
         max-width: 850px;
-
-        //   background-color: #054170;
       }
     }
   }
@@ -51,20 +64,6 @@ body {
 
         padding-right: 10px;
         padding-left: 10px;
-        // max-width: 600px;
-        //  background-color: #054170;
-      }
-    }
-  }
-}
-
-
-@media (max-width: 640px) {
-  body {
-    .wrapper {
-      .container {
-        //    max-width: 450px;
-        //  background-color: #054170;
       }
     }
   }

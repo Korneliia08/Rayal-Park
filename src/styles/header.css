@@ -11,6 +11,7 @@ body .wrapper header .container {
 }
 body .wrapper header .container .h2InHeader {
   color: #1B75BB;
+  font-family: Roboto cursive;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -20,6 +21,7 @@ body .wrapper header .container .h2InHeader {
 body .wrapper header .container .title {
   margin: 0.8vw 0;
   color: #081F32;
+  font-family: Gelasio cursive;
   font-size: 57px;
   font-style: normal;
   font-weight: 600;
@@ -32,6 +34,7 @@ body .wrapper header .container .pContent {
   margin: 0.9vw 0;
   width: 347px;
   color: #081F32;
+  font-family: Roboto cursive;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -40,6 +43,7 @@ body .wrapper header .container .pContent {
 body .wrapper header .container .btnReadMore {
   margin: 0.9vw 0;
   color: #FFF;
+  font-family: Roboto cursive;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -76,6 +80,7 @@ body .wrapper aside .block {
 }
 body .wrapper aside .block .titleAside {
   color: #081F32;
+  font-family: Roboto cursive;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -83,6 +88,7 @@ body .wrapper aside .block .titleAside {
 }
 body .wrapper aside .block time {
   color: #081F32;
+  font-family: Roboto cursive;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -108,6 +114,7 @@ body .wrapper aside .btnFindRoom {
   transition: 500ms;
   border: none;
   color: #FFF;
+  font-family: Roboto cursive;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
