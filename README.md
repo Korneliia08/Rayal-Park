@@ -6,7 +6,7 @@
 * made in HTML, SCSS,JS,
 * it is a responsive website,
 * made some animations using transform,
-* made using samantic tegs,
+* made using semantic tegs,
 * using small library AOS to animate elements on page during scroll.
 
   ## 📖 Libraries:
