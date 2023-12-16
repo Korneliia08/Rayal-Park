@@ -1,4 +1,4 @@
-# Rayal-Park
+# Template of website "Rayal-Park"
 ![image: lastCommit](https://img.shields.io/github/last-commit/Korneliia08/Rayal-Park/master)
 ![image:countLanguages](https://img.shields.io/github/languages/count/Korneliia08/Rayal-Park)
 
